@@ -2,17 +2,17 @@
 //  main.m
 //  GpLabel
 //
-//  Created by Геннадий Чукин on 03.07.12.
+//  Created by Gennady on 03.07.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "GprogAppDelegate.h"
+#import "AppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([GprogAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
