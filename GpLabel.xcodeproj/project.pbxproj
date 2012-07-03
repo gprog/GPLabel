@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51EFC6AE15A2C6C60060E210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EFC6AD15A2C6C60060E210 /* UIKit.framework */; };
+		51EFC6B015A2C6C60060E210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EFC6AF15A2C6C60060E210 /* Foundation.framework */; };
+		51EFC6B215A2C6C60060E210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EFC6B115A2C6C60060E210 /* CoreGraphics.framework */; };
+		51EFC6B815A2C6C60060E210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51EFC6B615A2C6C60060E210 /* InfoPlist.strings */; };
+		51EFC6BA15A2C6C60060E210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC6B915A2C6C60060E210 /* main.m */; };
+		51EFC6BE15A2C6C60060E210 /* GprogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC6BD15A2C6C60060E210 /* GprogAppDelegate.m */; };
+		51EFC6C115A2C6C60060E210 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EFC6BF15A2C6C60060E210 /* MainStoryboard.storyboard */; };
+		51EFC6C415A2C6C60060E210 /* GprogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC6C315A2C6C60060E210 /* GprogViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51EFC6A915A2C6C60060E210 /* GpLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EFC6AD15A2C6C60060E210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51EFC6AF15A2C6C60060E210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51EFC6B115A2C6C60060E210 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51EFC6B515A2C6C60060E210 /* GpLabel-Info.plist */ = {isa = PBXFileReference; path = "GpLabel-Info.plist"; sourceTree = "<group>"; };
+		51EFC6B715A2C6C60060E210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51EFC6B915A2C6C60060E210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51EFC6BB15A2C6C60060E210 /* GpLabel-Prefix.pch */ = {isa = PBXFileReference; path = "GpLabel-Prefix.pch"; sourceTree = "<group>"; };
+		51EFC6BC15A2C6C60060E210 /* GprogAppDelegate.h */ = {isa = PBXFileReference; path = GprogAppDelegate.h; sourceTree = "<group>"; };
+		51EFC6BD15A2C6C60060E210 /* GprogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GprogAppDelegate.m; sourceTree = "<group>"; };
+		51EFC6C015A2C6C60060E210 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		51EFC6C215A2C6C60060E210 /* GprogViewController.h */ = {isa = PBXFileReference; path = GprogViewController.h; sourceTree = "<group>"; };
+		51EFC6C315A2C6C60060E210 /* GprogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GprogViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51EFC6A615A2C6C60060E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EFC6AE15A2C6C60060E210 /* UIKit.framework in Frameworks */,
+				51EFC6B015A2C6C60060E210 /* Foundation.framework in Frameworks */,
+				51EFC6B215A2C6C60060E210 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EFC69E15A2C6C60060E210 = {
+			isa = PBXGroup;
+			children = (
+				51EFC6B315A2C6C60060E210 /* GpLabel */,
+				51EFC6AC15A2C6C60060E210 /* Frameworks */,
+				51EFC6AA15A2C6C60060E210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51EFC6AA15A2C6C60060E210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51EFC6A915A2C6C60060E210 /* GpLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51EFC6AC15A2C6C60060E210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EFC6AD15A2C6C60060E210 /* UIKit.framework */,
+				51EFC6AF15A2C6C60060E210 /* Foundation.framework */,
+				51EFC6B115A2C6C60060E210 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EFC6B315A2C6C60060E210 /* GpLabel */ = {
+			isa = PBXGroup;
+			children = (
+				51EFC6BC15A2C6C60060E210 /* GprogAppDelegate.h */,
+				51EFC6BD15A2C6C60060E210 /* GprogAppDelegate.m */,
+				51EFC6BF15A2C6C60060E210 /* MainStoryboard.storyboard */,
+				51EFC6C215A2C6C60060E210 /* GprogViewController.h */,
+				51EFC6C315A2C6C60060E210 /* GprogViewController.m */,
+				51EFC6B415A2C6C60060E210 /* Supporting Files */,
+			);
+			path = GpLabel;
+			sourceTree = "<group>";
+		};
+		51EFC6B415A2C6C60060E210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51EFC6B515A2C6C60060E210 /* GpLabel-Info.plist */,
+				51EFC6B615A2C6C60060E210 /* InfoPlist.strings */,
+				51EFC6B915A2C6C60060E210 /* main.m */,
+				51EFC6BB15A2C6C60060E210 /* GpLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51EFC6A815A2C6C60060E210 /* GpLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EFC6C715A2C6C60060E210 /* Build configuration list for PBXNativeTarget "GpLabel" */;
+			buildPhases = (
+				51EFC6A515A2C6C60060E210 /* Sources */,
+				51EFC6A615A2C6C60060E210 /* Frameworks */,
+				51EFC6A715A2C6C60060E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GpLabel;
+			productName = GpLabel;
+			productReference = 51EFC6A915A2C6C60060E210 /* GpLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51EFC6A015A2C6C60060E210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 51EFC6A315A2C6C60060E210 /* Build configuration list for PBXProject "GpLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51EFC69E15A2C6C60060E210;
+			productRefGroup = 51EFC6AA15A2C6C60060E210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EFC6A815A2C6C60060E210 /* GpLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51EFC6A715A2C6C60060E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EFC6B815A2C6C60060E210 /* InfoPlist.strings in Resources */,
+				51EFC6C115A2C6C60060E210 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51EFC6A515A2C6C60060E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EFC6BA15A2C6C60060E210 /* main.m in Sources */,
+				51EFC6BE15A2C6C60060E210 /* GprogAppDelegate.m in Sources */,
+				51EFC6C415A2C6C60060E210 /* GprogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51EFC6B615A2C6C60060E210 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EFC6B715A2C6C60060E210 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51EFC6BF15A2C6C60060E210 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EFC6C015A2C6C60060E210 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51EFC6C515A2C6C60060E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51EFC6C615A2C6C60060E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EFC6C815A2C6C60060E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GpLabel/GpLabel-Prefix.pch";
+				INFOPLIST_FILE = "GpLabel/GpLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51EFC6C915A2C6C60060E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GpLabel/GpLabel-Prefix.pch";
+				INFOPLIST_FILE = "GpLabel/GpLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51EFC6A315A2C6C60060E210 /* Build configuration list for PBXProject "GpLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EFC6C515A2C6C60060E210 /* Debug */,
+				51EFC6C615A2C6C60060E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EFC6C715A2C6C60060E210 /* Build configuration list for PBXNativeTarget "GpLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EFC6C815A2C6C60060E210 /* Debug */,
+				51EFC6C915A2C6C60060E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51EFC6A015A2C6C60060E210 /* Project object */;
+}
